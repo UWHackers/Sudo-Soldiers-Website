@@ -1,11 +1,27 @@
 doctype html
-head
-	title Sudo Soldiers - University of Washington
+html
+	head
+		title Sudo Soldiers - University of Washington
 
-	link(rel="stylesheet", href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css")
-	link(rel="stylesheet", href="style.css")
-	link(rel="stylesheet", href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800', type="text/css")
-	script(href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js")
+		link(rel="stylesheet", href="public/css/bootstrap.min.css")
+		link(rel="stylesheet", href="public/css/style.css")
+		link(rel="stylesheet", href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800', type="text/css")
+		script(href="public/js/bootstrap.min.js")
 
-body
-	h1 Sudo
+	body
+		div.container
+			a(href="http://eepurl.com/Md0eX")
+				div.jumbotron
+					h1.title Sudo Soldiers
+
+					p.lead.msg We teach web development.
+					p.lead.msg Classes every Thursday night at 6.
+					div.btn-group.btn-group-lg
+						button.btn.btn-success(role="button") Learn More
+						button.btn.btn-primary(role="button", onclick="window.location.href='https://www.facebook.com/groups/uwhackers/'") Facebook
+			div.us
+				p Sudo Soldiers is a registered RSO at the University of Washington. We aim of providing out-of-classroom learning opportunities. 
+			div.footer.container
+					p Website by 
+						a(href="http://www.goel.im") Karan Goel. Image by 
+						a(href="http://www.flickr.com/photos/48126477@N05/7186476574/") Matthew Pearce

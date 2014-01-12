@@ -1,0 +1,104 @@
+body {
+	position: absolute;
+	top: 0; bottom: 0; left: 0; right: 0;
+	height: 100%;
+	margin: 0px;
+	font-family: 'Open Sans', Helvetica, Helvetica Nue, Arial, sans-serif;
+	color: #eee;
+}
+
+body:before {
+	content: "";
+	z-index: -1;
+	position: absolute;
+	height: 100%; width: 100%;
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/bg2.jpg");
+	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/bg2.jpg");
+	background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/bg2.jpg");
+	background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/bg2.jpg");
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("../images/bg2.jpg");
+	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/bg2.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	filter: blur(1px);
+	-webkit-filter: blur(1px);
+	-moz-filter: blur(1px);
+	-o-filter: blur(1px);
+	-ms-filter: blur(1px);
+	margin: 0px!important;
+}
+
+a {
+	color: #eee;
+	text-decoration: none;
+}
+
+a:active, a:hover, a:focus {
+	outline: 0;
+	color: #eee;
+	text-decoration: none;
+}
+
+@media (min-width: 320px) {
+	.container {
+		max-width: 520px;
+	}
+}
+
+.container {
+	text-align: center;
+}
+
+.jumbotron {
+	transition: background 0.3s ease;
+}
+
+.container .jumbotron {
+	background: rgba(0, 0, 0, 0.35);
+	margin: 120px auto;
+	text-align: center;
+}
+
+.jumbotron:hover {
+	background: rgba(0, 0, 0, 0.3);
+	transition: background 0.3s ease;
+	color: #d9d6d6;
+}
+
+h1.title {
+	font-size: 2em;
+	font-weight: 700;
+	text-shadow: 0 3px 0 rgba(0, 0, 0, 0.33);
+}
+
+h1.title:hover {
+
+}
+
+p.lead.msg {
+	font-size: 0.8em;
+	font-weight: 400;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-shadow: 0 3px 0 rgba(0, 0, 0, 0.33);
+}
+
+.us {
+	background: rgba(0, 0, 0, 0.35);
+	border-radius: 5px;
+	color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+	padding: 1em;
+	margin: 0 auto 20px;
+}
+
+.footer {
+	text-align: center;
+	margin: 0px;
+}
+
+.footer p, .footer a {
+	color: rgba(255, 255, 255, 0.5);
+}
