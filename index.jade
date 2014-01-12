@@ -9,6 +9,7 @@ html
 		script(href="public/js/bootstrap.min.js")
 
 	body
+		div.bg
 		div.container
 			a(href="http://eepurl.com/Md0eX")
 				div.jumbotron
@@ -17,8 +18,8 @@ html
 					p.lead.msg We teach web development.
 					p.lead.msg Classes every Thursday night at 6.
 					div.btn-group.btn-group-lg
-						button.btn.btn-success(role="button") Learn More
-						button.btn.btn-primary(role="button", onclick="window.location.href='https://www.facebook.com/groups/uwhackers/'") Facebook
+						a.btn.btn-success.custom(role="button", href="http://eepurl.com/Md0eX") Sign up
+						a.btn.btn-primary.custom(role="button", href="https://www.facebook.com/groups/uwhackers/") Facebook
 			div.us
 				p Sudo Soldiers is a registered RSO at the University of Washington. We aim of providing out-of-classroom learning opportunities. 
 			div.footer.container
