@@ -10,12 +10,12 @@ body {
 	position: fixed;
 	height: 100%;
 	width: 100%;
-	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/bg2.jpg");
-	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/bg2.jpg");
-	background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/bg2.jpg");
-	background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/bg2.jpg");
-	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("../images/bg2.jpg");
-	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/bg2.jpg");
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/bg2.jpg");
+	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/bg2.jpg");
+	background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/bg2.jpg");
+	background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/bg2.jpg");
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url("../images/bg2.jpg");
+	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/bg2.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -40,7 +40,7 @@ a:active, a:hover, a:focus {
 
 @media (min-width: 320px) {
 	.container {
-		max-width: 520px;
+		max-width: 550px;
 	}
 }
 
@@ -61,14 +61,17 @@ a:active, a:hover, a:focus {
 }
 
 .jumbotron:hover {
-	background: rgba(0, 0, 0, 0.3);
+	background: rgba(0, 0, 0, 0.29);
 	transition: background 0.3s ease;
 }
 
 h1.title {
-	font-size: 2.3em;
-	font-weight: 700;
+	font-size: 2em;
+	font-weight: 300;
 	text-shadow: 0 3px 0 rgba(0, 0, 0, 0.33);
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-bottom: 40px;
 }
 
 p.lead.msg {
