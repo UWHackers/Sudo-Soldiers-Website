@@ -10,21 +10,22 @@ body {
 	position: fixed;
 	height: 100%;
 	width: 100%;
-	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/bg2.jpg");
+	/*background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/bg2.jpg");
 	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/bg2.jpg");
 	background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/bg2.jpg");
 	background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/bg2.jpg");
 	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url("../images/bg2.jpg");
-	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/bg2.jpg");
+	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/bg2.jpg");*/
+	background-image: url("../images/bg2.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	filter: blur(1px);
+	/*filter: blur(1px);
 	-webkit-filter: blur(1px);
 	-moz-filter: blur(1px);
 	-o-filter: blur(1px);
-	-ms-filter: blur(1px);
+	-ms-filter: blur(1px);*/
 }
 
 a {
@@ -55,27 +56,28 @@ a:active, a:hover, a:focus {
 }
 
 .container .jumbotron {
-	background: rgba(0, 0, 0, 0.25);
+	background: rgba(0, 0, 0, 0.55);
 	margin: 90px auto;
 	text-align: center;
 }
 
 .jumbotron:hover {
-	background: rgba(0, 0, 0, 0.29);
+	background: rgba(0, 0, 0, 0.65);
 	transition: background 0.3s ease;
 }
 
 h1.title {
-	font-size: 2.3em;
-	font-weight: 700;
+	font-size: 2.9em;
+	font-weight: 300;
 	text-shadow: 0 3px 0 rgba(0, 0, 0, 0.33);
 }
 
 p.lead.msg {
-	font-size: 0.9em;
+	font-size: 1.2em;
 	font-weight: 400;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	margin-right: 20px;
 	text-shadow: 0 3px 0 rgba(0, 0, 0, 0.33);
 }
 
@@ -86,15 +88,14 @@ p.lead.msg {
 a.btn.custom {
 	border-radius: 0px;
 	color: #eee;
-	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.5);
 }
 
 .us {
 	border-left: 1px solid rgba(0, 0, 0, 0.6);
 	border-right: 1px solid rgba(0, 0, 0, 0.6);
-	background: rgba(0, 0, 0, 0.35);
+	background: rgba(0, 0, 0, 0.55);
 	border-radius: 5px;
-	color: rgba(255, 255, 255, 0.5);
+	color: rgba(255, 255, 255, 0.7);
 	text-align: center;
 	padding: 1em;
 	margin: 0 auto 20px;
@@ -106,5 +107,5 @@ a.btn.custom {
 }
 
 .footer p, .footer a {
-	color: rgba(255, 255, 255, 0.5);
+	color: rgba(255, 255, 255, 0.7);
 }
