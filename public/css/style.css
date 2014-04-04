@@ -6,26 +6,19 @@ body {
 .bg {
 	content: "";
 	z-index: -1;
-	position: absolute;
 	position: fixed;
 	height: 100%;
 	width: 100%;
-	/*background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/bg2.jpg");
-	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/bg2.jpg");
-	background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/bg2.jpg");
-	background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/bg2.jpg");
-	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url("../images/bg2.jpg");
-	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/bg2.jpg");*/
 	background-image: url("../images/bg2.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	/*filter: blur(1px);
-	-webkit-filter: blur(1px);
-	-moz-filter: blur(1px);
-	-o-filter: blur(1px);
-	-ms-filter: blur(1px);*/
+	filter: blur(10px);
+	-webkit-filter: blur(10px);
+	-moz-filter: blur(10px);
+	-o-filter: blur(10px);
+	-ms-filter: blur(10px);
 }
 
 a {
@@ -41,7 +34,7 @@ a:active, a:hover, a:focus {
 
 @media (min-width: 320px) {
 	.container {
-		max-width: 520px;
+		max-width: 600px;
 	}
 }
 
@@ -51,13 +44,13 @@ a:active, a:hover, a:focus {
 
 .jumbotron {
 	transition: background 0.3s ease;
-	border-left: 1px solid rgba(0, 0, 0, 0.6);
-	border-right: 1px solid rgba(0, 0, 0, 0.6);
+	border-left: 10px solid rgba(0, 0, 0, 0.6);
+	border-right: 10px solid rgba(0, 0, 0, 0.6);
 }
 
 .container .jumbotron {
 	background: rgba(0, 0, 0, 0.55);
-	margin: 90px auto;
+	margin: 60px auto;
 	text-align: center;
 }
 
@@ -68,13 +61,13 @@ a:active, a:hover, a:focus {
 
 h1.title {
 	font-size: 2.9em;
-	font-weight: 300;
+	font-weight: 400;
 	text-shadow: 0 3px 0 rgba(0, 0, 0, 0.33);
 }
 
 p.lead.msg {
 	font-size: 1.2em;
-	font-weight: 400;
+	font-weight: 600;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	margin-right: 20px;
@@ -91,8 +84,8 @@ a.btn.custom {
 }
 
 .us {
-	border-left: 1px solid rgba(0, 0, 0, 0.6);
-	border-right: 1px solid rgba(0, 0, 0, 0.6);
+	border-left: 10px solid rgba(0, 0, 0, 0.6);
+	border-right: 10px solid rgba(0, 0, 0, 0.6);
 	background: rgba(0, 0, 0, 0.55);
 	border-radius: 5px;
 	color: rgba(255, 255, 255, 0.7);
